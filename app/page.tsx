@@ -128,18 +128,16 @@ export default function Page() {
             </span>
 
             <h1 className="mt-6 text-4xl font-extrabold leading-tight tracking-tight md:text-5xl lg:text-6xl">
-              Transforma tu alimentación con un{" "}
-              <span className="text-fuchsia-600">Sistema de  Nutrición </span>{" "} práctico
-              que se adapta a tu rutina
+              Pierde de 2 a 6 kilos de grasa en{" "}
+              <span className="text-fuchsia-600">solo 10 días</span>{" "} con un 
+              Sistema de Nutrición Inteligente
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-              Un sistema compuesto por <strong>3 productos con alimentos liofilizados</strong>,
-              una <strong>guía nutricional</strong> y{" "}
-              <strong>acompañamiento personalizado</strong> para ayudarte a bajar
-              grasa, cuidar tu masa muscular o mantener un peso saludable.
+              Nuestro sistema lo componen <strong>3 productos que son categoría alimento liofilizado</strong>,
+              por tanto puedes <strong>reemplazar comidas principales</strong> sin pasar hambre y sin efecto rebote.
             </p>
-
+            
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <a
                 href={whatsappUrl}
@@ -188,12 +186,12 @@ export default function Page() {
               />
             </div>
             
-            <div className="absolute -bottom-6 -left-4 rounded-2xl border border-emerald-200 bg-white p-4 shadow-xl">
+            <div className="absolute -bottom-18 left-1/2 transform -translate-x-1/2 rounded-2xl border border-emerald-200 bg-white p-4 shadow-xl">
               <p className="text-sm font-semibold text-emerald-700">
                 Ideal para pérdida de grasa
               </p>
               <p className="mt-1 text-sm text-slate-600">
-                También adaptable a masa muscular y mantenimiento.
+                Desinflama y detoxifica tu organismo
               </p>
             </div>
           </div>
@@ -227,10 +225,10 @@ export default function Page() {
             {benefits.map((benefit) => (
               <div
                 key={benefit.title}
-                className="rounded-2xl border border-slate-200 bg-slate-50 p-6"
+                className="rounded-2xl border-2 border-fuchsia-200 bg-gradient-to-br from-white to-fuchsia-50 p-6 hover:border-fuchsia-400 hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-lg font-semibold">{benefit.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-slate-600">
+                <h3 className="text-lg font-semibold text-fuchsia-700">{benefit.title}</h3>
+                <p className="mt-3 text-sm leading-7 text-slate-700">
                   {benefit.description}
                 </p>
               </div>
@@ -494,8 +492,8 @@ export default function Page() {
                     return;
                   }
 
-                  // TU NÚMERO DE WHATSAPP (cámbialo aquí)
-                  const miNumero = "573136142113"; // ⚠️ REEMPLAZA CON TU NÚMERO REAL
+                  // TU NÚMERO DE WHATSAPP
+                  const miNumero = "573136142113";
                   
                   // Crear mensaje para WhatsApp
                   const textoWhatsApp = `Hola, soy ${nombre}. Mi objetivo es: ${objetivo}. Mi WhatsApp es: ${telefonoUsuario}. ${mensaje ? 'Consulta adicional: ' + mensaje : ''}`;
@@ -506,10 +504,10 @@ export default function Page() {
                   // Abrir WhatsApp en nueva pestaña
                   window.open(url, '_blank');
                   
-                  // Opcional: Mostrar mensaje de éxito
+                  // Mostrar mensaje de éxito
                   alert('¡Gracias! Serás redirigido a WhatsApp para continuar.');
                   
-                  // Limpiar formulario (opcional)
+                  // Limpiar formulario
                   e.currentTarget.reset();
                 }}
               >
