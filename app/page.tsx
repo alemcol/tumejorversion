@@ -145,34 +145,10 @@ export default function Page() {
               >
                 Asesoría por WhatsApp
               </a>
-              <a
-                href={formUrl}
-                className="inline-flex items-center justify-center rounded-xl border border-slate-300 bg-white px-6 py-4 text-base font-semibold text-slate-800 transition hover:bg-slate-50"
-              >
-                Quiero que analicen mi caso
-              </a>
+
             </div>
 
-            <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
-              <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-                <p className="text-sm font-semibold text-slate-900">3 productos</p>
-                <p className="mt-1 text-sm text-slate-600">
-                  Elaborados con alimentos liofilizados.
-                </p>
-              </div>
-              <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-                <p className="text-sm font-semibold text-slate-900">Guía nutricional</p>
-                <p className="mt-1 text-sm text-slate-600">
-                  Paso a paso según el objetivo.
-                </p>
-              </div>
-              <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-                <p className="text-sm font-semibold text-slate-900">Acompañamiento</p>
-                <p className="mt-1 text-sm text-slate-600">
-                  Asesoría personalizada y comunidad.
-                </p>
-              </div>
-            </div>
+
           </div>
 
           <div className="relative">
