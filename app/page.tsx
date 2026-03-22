@@ -123,9 +123,7 @@ export default function Page() {
         <div className="absolute inset-0 bg-gradient-to-br from-fuchsia-50 via-white to-emerald-50" />
         <div className="relative mx-auto grid max-w-7xl gap-10 px-6 py-16 md:px-10 lg:grid-cols-2 lg:items-center lg:py-24">
           <div>
-            <span className="inline-flex rounded-full border border-fuchsia-200 bg-white/80 px-4 py-1 text-sm font-medium text-fuchsia-700 shadow-sm">
-              Sistema de nutrición inteligente + asesoría personalizada
-            </span>
+
 
             <h1 className="mt-6 text-4xl font-extrabold leading-tight tracking-tight md:text-5xl lg:text-6xl">
               Pierde de 2 a 6 kilos de grasa en{" "}
@@ -145,7 +143,7 @@ export default function Page() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-xl bg-fuchsia-600 px-6 py-4 text-base font-semibold text-white shadow-lg transition hover:bg-fuchsia-700"
               >
-                Agendar asesoría por WhatsApp
+                Asesoría por WhatsApp
               </a>
               <a
                 href={formUrl}
