@@ -113,7 +113,7 @@ const faqs = [
 
 export default function Page() {
   const whatsappUrl =
-    "https://wa.me/573136142113?text=Hola%2C%20quiero%20agendar%20una%20asesor%C3%ADa%20para%20conocer%20el%20sistema";
+    "https://wa.me/573136142113?text=Hola%2C%20quiero%20más%20información%20acerca%20del%20sistema";
   const formUrl = "#formulario";
 
   return (
@@ -363,7 +363,7 @@ export default function Page() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-xl bg-fuchsia-600 px-6 py-4 text-base font-semibold text-white transition hover:bg-fuchsia-700"
               >
-                Agendar por WhatsApp
+                Atención por WhatsApp
               </a>
               <a
                 href={formUrl}
